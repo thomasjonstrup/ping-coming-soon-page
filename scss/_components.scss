@@ -61,6 +61,18 @@ pre {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		transition: all 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+		&:hover {
+			cursor: pointer;
+			background-color: #4f7df3;
+			color: white;
+
+			.footer__social-icon {
+				color: $white;
+				//font-size: 1.5rem;
+			}
+		}
 
 		&-icon {
 			color: $primary-color;
