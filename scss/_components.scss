@@ -44,8 +44,27 @@ pre {
 		color: $neutral-gray-color;
 	}
 	&__socials {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
 		a {
 			margin: 0 10px;
+		}
+	}
+
+	&__social {
+		padding: 0.7rem;
+		border: 1px solid #c2d3ff;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&-icon {
+			color: $primary-color;
+			font-size: 1.5rem;
 		}
 	}
 }
@@ -60,9 +79,9 @@ pre {
 	border: none;
 	border-radius: 2rem;
 	transition: all 0.5s;
-	font-size: 1.2rem;
-	font-weight: bold;
+	font-size: 1.4rem;
 	outline: none;
+	box-shadow: 0 0.4rem 1.2rem 0 #b0c6ff;
 
 	&-outline {
 		background-color: transparent;
